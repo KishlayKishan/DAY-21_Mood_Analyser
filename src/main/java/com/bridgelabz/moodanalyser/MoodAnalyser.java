@@ -1,3 +1,8 @@
+/* @Purpose : Ability to analyse mood and respond either happy or sad
+ * @File : Mood Analyzer
+ * @Author : Kishlay Kishan
+ */
+
 package com.bridgelabz.moodanalyser;
 
 public class MoodAnalyser {
