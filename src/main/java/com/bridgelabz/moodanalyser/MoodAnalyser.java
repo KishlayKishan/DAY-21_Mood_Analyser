@@ -16,7 +16,7 @@ public class MoodAnalyser {
 		this.msg = msg;
 	}
 
-	public String analyzeMood() {
+	public String analyzeMood() throws MoodAnalysisException {
 		try {
 			if (msg.contains("Sad")) {
 				return "Sad";
