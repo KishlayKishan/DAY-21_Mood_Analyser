@@ -16,14 +16,10 @@ public class MoodAnalyser {
 		this.msg = msg;
 	}
 
-	public String analyzeMood() throws MoodAnalysisException {
-		try {
-			if (msg.contains("Sad")) {
-				return "Sad";
-			}
-			return "Happy";
-		} catch (NullPointerException e) {
-			return "Happy";
+	public String analyzeMood() {
+		if (msg.contains("Sad")) {
+			return "Sad";
 		}
+		return "Happy";
 	}
 }
